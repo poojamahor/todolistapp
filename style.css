@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100vw; */
+    height: 100vh;
+    background: linear-gradient(to bottom, #33ccff 0%, #003399 100%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    width: 70%;
+    height: 80%;
+    background:#d5eafc;
+    margin: auto;
+    overflow: hidden;
+}
+
+#todos-container{
+    height: 70%;
+    background: #d8dadc;
+    padding: 16px;
+    overflow-y: scroll;
+}
+
+.todo-div {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 12px;
+}
